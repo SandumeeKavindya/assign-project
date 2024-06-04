@@ -11,13 +11,15 @@
             crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
-    <body>
+    <body class="bg-light">
       <header class="p-3 text-bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
             </a>
+            <p><h3 class="bi bi-snow3 bg-opacity-50 text-white">Snowwind</h3></p>
+
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
@@ -37,34 +39,81 @@
             </div>
           </div>
         </div>
+        <style>
+          .text-justify {
+              text-align: justify;
+          }
+      </style>
       </header>
 
      <br>
+    
+     <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <p  class="fs-1 text-center text-info bg-dark fw-bold fst-italic">Beauty in South Korea</p>
+      
+      <br>
 
-        <div class="container">
-          <div class="row">
-            <div class="col text-bg-dark">
-              <img src="img/first.webp" class="" alt="">
-            </div>
-            <div class="col text-center">
-              <p>The earliest cherry blossoms can be seen in Jeju Island around March 24, while Seoul will have to wait until April 3. Usually the cherry blossoms peak approximately one week after blossoming, so you will be able to see cherry blossoms in full bloom in Seogwipo, Jeju after March 31 and in Seoul around April 10.The cherry blossom is usually associated with Japan, where it is known as Sakura. This is in part because the cherry blossom is the natural flower of Japan. In Korea, it is called 벗꽃 (beotkkot). It’s a common Korean word around this time of year.
+      
 
-                The cherry blossom tree is closely related to other common trees, including almond, peach, plum, and apricot trees. Even though these trees are all similar to the cherry blossom tree, none of these trees have the uniquely beautiful pink blossoms that the cherry blossom tree has. Cherry blossom trees also have a lovely scent – many perfume and cosmetic companies have tried to replicate it in sprays and lotions.</p>
-            </div>
-          </div>
-
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="img/fir.jpeg" class="rounded mx-auto d-block" alt=" alt="...">
         </div>
+        <div class="carousel-item">
+          <img src="img/dong.jpg" class="rounded mx-auto d-block" alt=" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/lotte.jpg" class="rounded mx-auto d-block" alt=" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/palace.jpeg" class="rounded mx-auto d-block" alt=" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/nami.jpg" class="rounded mx-auto d-block" alt=" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pavilian.jpg" class="rounded mx-auto d-block" alt=" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-        <div class="container-fluat mt-5 bg-dark">
-            <div class="row">
+       <p class="text-justify">South Korea, country in East Asia. It occupies the southern portion of the Korean peninsula. The country is bordered by the Democratic People’s Republic of Korea (North Korea) to the north, the East Sea (Sea of Japan) to the east, the East China Sea to the south, and the Yellow Sea to the west; to the southeast it is separated from the Japanese island of Tsushima by the Korea Strait. South Korea makes up about 45 percent of the peninsula’s land area. The capital is Seoul (Sŏul).
+
+
+        South Korea
+        
+        Seoul's Namdaemun
+        After being destroyed by fire in 2008, Seoul's Namdaemun (“Great South Gate”) was restored and reopened in 2013.
+        South Korea faces North Korea across a demilitarized zone (DMZ) 2.5 miles (4 km) wide that was established by the terms of the 1953 armistice that ended fighting in the Korean War (1950–53). The DMZ, which runs for about 150 miles (240 km), constitutes the 1953 military cease-fire line and roughly follows latitude 38° N (the 38th parallel) from the mouth of the Han River on the west coast of the Korean peninsula to a little south of the North Korean town of Kosŏng on the east coast.
+        
+       
+        <p class="text-black h2 fw-bold">Main cities in South korea</p>
+
+  <div class="container-fluat mt-5 bg-dark">
+            <div class="row ">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="img/Jeju-South-Korea-Cherry-Blossom.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Jeju Island</h5>
-                          <p class="card-text">Jeju Island is home to a native species of cherry blossom known as the Jeju Flowering Cherry (previously known as King Cherry). With slightly bigger petals than the ubiquitous Yoshino cherry species found in Japan, the Jeju Flowering Cherry was once misidentified as just another Yoshino until the late eighties.
+                        <div class="card-body justify-content-around">
+                          <h5 class="text-dark text-center">Jeju Island</h5>
+                          <p class="text-justify">Jeju Island, island and (since 2006) special autonomous province of South Korea. The province, the smallest of the republic, is in the East China Sea 60 miles (100 km) southwest of South Jeolla province, of which it once was a part. The provincial capital is the city of Jeju.
 
-                            Today, many visitors flock to Jeju Island during the months of spring to witness the blooming of the rarer Jeju native.</p>
+
+                            Jeju Island, South Korea
+                            Oval in shape, Jeju Island measures 40 miles (64 km) from east to west and 16 miles (26 km) from north to south. The island is composed of a core of volcanic material that rises symmetrically to the crest of Mount Halla (6,398 feet [1,950 meters]), which has a lake in its crater. The mountain and its surrounding area are a national park. Hundreds of crater-formed hills from which volcanic material once flowed, seaside precipices with waterfalls, and lava tunnels (or tubes) are international sightseeing attractions. The island’s lava tubes and certain other volcanic formations (including Mount Halla) were collectively designated a UNESCO World Heritage site in 2007. Jeju is bathed in warm currents, and its oceanic climate supports some subtropical plants</p>
                           <a href="https://www.shootpetals.com/jeju-island.html" class="btn btn-primary">Jeju Island</a>
                         </div>
                       </div>
@@ -73,10 +122,10 @@
                     <div class="card" style="width: 18rem;">
                         <img src="img/busan.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Busan</h5>
-                          <p class="card-text">The biggest cherry blossom festival in the country would be the Jinhae Cherry Blossom Festival near Busan. And if you’re travelling around Busan or the southern area of South Korea, there’s also Gyeongju, the old capital of Silla, where you can feast your eyes on cherry blossoms galore.
+                          <h5 class="text-dark text-center">Busan</h5>
+                          <p class="text-justify">Busan, metropolitan city and port, South Korea, located at the southeast tip of the Korean peninsula. It is bordered to the north and west by South Gyeongsang province (do); to the south and east lies the Korea Strait. During the Goryeo dynasty (935–1392) it was named Pusanp’o (Korean pu meaning “kettle” and san meaning “mountain,” for the shape of the mountain at whose foot it is situated, and p’o meaning “bay” or “harbor”). Busan is the country’s largest port and second largest city. It has the status of a metropolitan city under the direct control of the central government, with administrative status equal to that of a province.
 
-                            South Korea is a pretty homogenous country and everywhere seems to be the same after a while, but Busan offers different views as a coastal city. If you’ve had enough of Seoul-searching, hop onto that train to Busan to experience a South Korea unlike any other.</p>
+                            On a deep well-sheltered bay at the mouth of the Naktong River, facing the Japanese islands of Tsushima across the Korea Strait, Busan was opened to the Japanese in 1876 and to general foreign trade in 1883. Under the Japanese occupation (1910–45) it developed into a modern port; ferry service connected the city with Shimonoseki, Japan, and Busan was the terminus of rail lines connecting Korea to China and Russia. The city became overpopulated with repatriates from overseas when Korea gained independence in 1945 and again with refugees during the Korean War (1950–53), when it was the temporary capital of the Republic of Korea.</p>
                           <a href="https://www.busan.go.kr/bige/daily-busan/view?dataNo=69548&curPage=1&bbsNo=10&srchCl=Daily+Busan" class="btn btn-primary">Busan</a>
                         </div>
                       </div>
@@ -85,10 +134,10 @@
                     <div class="card" style="width: 18rem;">
                         <img src="img/saul.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Seoul</h5>
-                          <p class="card-text">Come spring, Seoul is dotted pink with cherry trees blooming across the city — perfect for showing off on the ‘gram. For cherry blossom viewing away from the crowds, head to Kyung Hee University, which offers impressive neo-classical architecture as a backdrop.
+                          <h5 class="text-dark text-center">Seoul</h5>
+                          <p class="text-justify">Seoul, city and capital of South Korea (the Republic of Korea). It is located on the Han River (Han-gang) in the northwestern part of the country, with the city center some 37 miles (60 km) inland from the Yellow Sea (west). Seoul is the cultural, economic, and political center of South Korea.
 
-                            Besides admiring flowers, don’t forget to check out other attractions in Seoul too like Lotte World, Seoul City Wall and of course, shopping along the bustling streets of Myeong-dong and Hongdae</p>
+                            Except for a brief interregnum (1399–1405), Seoul was the capital of Korea from 1394 until the formal division of the country in 1948. The name itself has come to mean “capital” in the Korean language. The city was popularly called Seoul in Korean during both the Joseon (Yi) dynasty (1392–1910) and the period of Japanese rule (1910–45), although the official names in those periods were Hanseong and Gyeongseong, respectively. The city was also popularly and, during most of the 14th century, officially known as Hanyang. Seoul became the official name of the city only with the founding of South Korea in 1948. Area 234 square miles (605 square km). Pop. (2020) 9,586,195.</p>
                           <a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/locIntrdnList.do?vcontsId=95783" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
@@ -126,27 +175,27 @@
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
               <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Foods</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <p class="text-justify">Don't leave Korea without trying...</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
               <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Climate</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <p>The Republic of Korea lies in the temperate zone with four distinct seasons.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
               <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Clothing styles</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Languages</h3>
+                <p>Apart from learning facts about Korea and Korean culture, it’s also good to know some important information about Korea’s language.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
               <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Agriculture</h3>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Clothing Styles</h3>
                 <p>Paragraph of text beneath the heading to explain the heading.</p>
               </div>
             </div>
@@ -180,72 +229,58 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2 ">
-              <div class="card m-5 m-sm-5 m-lg-0 position-absolute" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          
-             <div class="col-lg-2 col-sm-12 col-md-4 m-sm-2">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-             </div>
 
-             <div class="col-lg-2 ">
-              <div class="card m-5 m-sm-5 m-lg-0 position-absolute" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <h2 class="text-black text border-white">FOODS IN KOREA</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/bibimbap.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bibimbap</h5>
+                <p class="text-justify">Probably the best-known Korean dish, bibimbap originated on the eve of Lunar New Year when it was traditional to use up all the vegetables and side-dishes in the house. A hot stone bowl is filled with cooked rice and topped with vegetables, pickled Chinese radish, carrot and mushrooms. Great care is taken to make the dish look attractive. Egg yolk and raw beef are also popular additions – when stirred through, they cook against the hot stone.</p>
               </div>
-            </div>
-          
-             <div class="col-lg-2 col-sm-12 col-md-4 m-sm-2">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-             </div>
-             <div class="col-lg-2 ">
-              <div class="card m-5 m-sm-5 m-lg-0 position-absolute" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          
-             <div class="col-lg-2 col-sm-12 col-md-4 m-sm-2">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">korea</a>
-                </div>
-              </div>
-             </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/Bulgogi.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-dark ">Bulgogi</h5>
+                <p class="text-justify">Bulgogi is a traditional style of Korean barbecue. Beef, pork belly or chicken is marinated in soy sauce, sugar and pear juice, then cooked on a hot-plate on the table.<br>Marinate thinly sliced beef in a traditional Korean marinade, then pan-fry for a delicate balance of sweet and savoury flavours.
 
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/kimchi.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kimchi</h5>
+                <p class="text-justify">Kimchi is lacto-fermented Chinese leaf (baechu kimchi) seasoned with chilli. It's an accompaniment to almost every meal in Korea, usually as a side-dish.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/Kimchi-fried-rice.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kimchi fried rice</h5>
+                <p class="text-justify">Fry diced pork in oil then add chopped kimchi and cooked rice, mixing together as you cook. Toss in some sesame oil and spring onion, and serve with a fried egg on top for a simple but hearty meal.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="container">
+    
+        <br><h3 class="text-primary">Climate</h3><br><p class="text-justify" >The greatest influence on the climate of the Korean peninsula is its proximity to the main Asian landmass. This produces the marked summer-winter temperature extremes of a continental climate while also establishing the northeast Asian monsoons (seasonal winds) that affect precipitation patterns. The annual range of temperature is greater in the north and in interior regions of the peninsula than in the south and along the coast, reflecting the relative decline in continental influences in the latter areas.
+          South Korea’s climate is characterized by a cold, relatively dry winter and a hot, humid summer. The coldest average monthly temperatures in winter drop below freezing except along the southern coast. The average January temperature at Seoul is in the low 20s °F (about −5 °C), while the corresponding average at Pusan (Busan), on the southeast coast, is in the mid-30s °F (about 2 °C). By contrast, summer temperatures are relatively uniform across the country, the average monthly temperature for August (the warmest month) being in the high 70s °F (about 25 °C).
+          Annual precipitation ranges from about 35 to 60 inches (900 to 1,500 mm) on the mainland. Taegu, on the east coast, is the driest area, while the southern coast is the wettest; southern Cheju Island receives more than 70 inches (1,800 mm) annually. Up to three-fifths of the annual precipitation is received in June–August, during the summer monsoon, the annual distribution being more even in the extreme south. Occasionally, late-summer typhoons (tropical cyclones) cause heavy showers and storms along the southern coast. Precipitation in winter falls mainly as snow, with the heaviest amounts occurring in the T’aebaek Mountains. The frost-free season ranges from 170 days in the northern highlands to more than 240 days on Cheju Island.
+       
+          <img src="img/wheather.gif" class="rounded mx-auto d-block" alt="...">
+          <br><h3 class="text-primary"><br>Languages</h3><br><p class="text-justify" >Koreans speak the <a href="https://www.90daykorean.com/korean/">Korean  language</a> which is often classified as one of the Altaic languages, has affinities to Japanese, and contains many Chinese loanwords. The Korean script, known in South Korea as Hangul (Han’gŭl) and in North Korea as Chosŏn muntcha, is composed of phonetic symbols for the 10 vowels and 14 consonants. Korean often is written as a combination of Chinese ideograms and Hangul in South Korea, although the trend is toward using less Chinese. A large number of English words and phrases have crept into the language—either intact or modified by local usage—as a result of the American presence in the country since 1950.
+          </p>
+          <div class="container">
           <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
